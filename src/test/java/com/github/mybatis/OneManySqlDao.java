@@ -24,7 +24,7 @@ public class OneManySqlDao extends ApplicationTestRoot {
         dao.deleteIdentity("ID0001");
         dao.insertLogin("ID0001", "myName", "myPassword");
         dao.insertIdentity("ID0001", "01", "12345678");
-        dao.insertIdentity("ID0001", "02", "1234567890");
+//        dao.insertIdentity("ID0001", "02", "1234567890");
     }
 
     /**
