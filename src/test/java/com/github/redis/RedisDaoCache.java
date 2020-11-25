@@ -23,9 +23,9 @@ public class RedisDaoCache extends ApplicationTestRoot {
 		System.out.println("redis after use : " + redisString.get("users::ID0001"));
 		System.out.println();
 
-		System.out.println(redisString.get("users::list"));
-		List<User> list = dao.selectUser();
-		System.out.println(list.size());
-		System.out.println(redisString.get("users::list"));
+//		System.out.println(redisString.get("users::list"));
+//		List<User> list = dao.selectUser();
+//		System.out.println(list.size());
+//		System.out.println(redisString.get("users::list"));
 	}
 }
